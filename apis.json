@@ -1,0 +1,61 @@
+{
+    "name": "Periscope Data",
+    "description": "Periscope Data brings all your data together in a single platform and delivers SQL, Python, and R in one solution. Easily warehouse, analyze, visualize and share data from across your business.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/20059-periscope-data.jpg",
+    "tags": [
+        "databases",
+        "have api",
+        "visualizations"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/periscope-data\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Periscope Data",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/20059-periscope-data.jpg",
+            "humanURL": "https:\/\/www.periscopedata.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/periscope-data-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/periscope-data-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "https:\/\/www.periscopedata.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "https:\/\/www.periscopedata.com\/blog\/atom.xml"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/periscope-inc"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/PeriscopeData"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/periscopedata"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/www.periscopedata.com\/"
+        }
+    ]
+}
