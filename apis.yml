@@ -1,0 +1,30 @@
+aid: periscope-data
+name: Periscope Data
+description: 'Periscope Data is a company surfaced as a portfolio company of bessemer-venture-partners,
+  gv, susa-ventures, threshold-ventures and added to the API Evangelist network as a stub for enrichment.
+  Sector: cloud. This profile is a lead awaiting the enrichment pipeline.'
+url: https://raw.githubusercontent.com/api-evangelist/periscope-data/refs/heads/main/apis.yml
+x-type: company
+x-source: vc-portfolio
+x-backed-by:
+- bessemer-venture-partners
+- gv
+- susa-ventures
+- threshold-ventures
+x-tier: stub
+x-tier-reason: portfolio-lead
+specificationVersion: '0.20'
+created: '2026-07-17'
+modified: '2026-07-17'
+tags:
+- Company
+- Cloud
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://www.periscopedata.com/
