@@ -1,8 +1,22 @@
 aid: periscope-data
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/periscope-data.png
 name: Periscope Data
-description: 'Periscope Data is a company surfaced as a portfolio company of bessemer-venture-partners,
-  gv, susa-ventures, threshold-ventures and added to the API Evangelist network as a stub for enrichment.
-  Sector: cloud. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Periscope Data was a cloud business-intelligence and analytics platform (SQL-based
+  dashboards, data exploration, and reporting for data teams), backed by Bessemer Venture Partners,
+  GV, SuSa Ventures and Threshold Ventures. It was acquired by Sisense in 2019; the product is now
+  Sisense for Data Teams and the periscopedata.com domain 301-redirects to sisense.com. No standalone
+  Periscope Data developer portal, documentation, or public API surface remains as of this enrichment pass.'
 url: https://raw.githubusercontent.com/api-evangelist/periscope-data/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,16 +29,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Cloud
+- Business Intelligence
+- Analytics
+- Data
+- Dashboards
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-acquired-by: sisense
+x-status: acquired
 common:
+- type: DomainSecurity
+  url: security/periscope-data-domain-security.yml
 - type: Website
   url: https://www.periscopedata.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
