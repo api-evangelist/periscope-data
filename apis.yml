@@ -58,6 +58,11 @@ maintainers:
 x-acquired-by: sisense
 x-status: acquired
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/sisense/
+  name: Sisense
+  x-relationship: acquired
+  x-evidence: "It was acquired by Sisense in 2019; the product is now Sisense for Data Teams and the periscopedata."
 - type: DomainSecurity
   url: security/periscope-data-domain-security.yml
 - type: Website
